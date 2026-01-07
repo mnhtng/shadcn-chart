@@ -195,6 +195,7 @@ If you're using a bundler like Vite with `@tailwindcss/vite`, you need to add a 
 @import "tailwindcss";
 
 @source "../node_modules/shadcn-chart";
+```
 
 ### Tailwind v3
 
