@@ -24,14 +24,14 @@ Add individual chart components directly to your project:
 
 ```bash
 # Install a single chart
-npx shadcn add https://mnhtng.github.io/shadcn-chart/r/area-chart.json
+npx shadcn add https://mnhtng.github.io/shadcn-chart/public/r/area-chart.json
 
 # Or install all charts
-npx shadcn add https://mnhtng.github.io/shadcn-chart/r/area-chart.json \
-  https://mnhtng.github.io/shadcn-chart/r/bar-chart.json \
-  https://mnhtng.github.io/shadcn-chart/r/line-chart.json \
-  https://mnhtng.github.io/shadcn-chart/r/pie-chart.json \
-  https://mnhtng.github.io/shadcn-chart/r/radial-chart.json
+npx shadcn add https://mnhtng.github.io/shadcn-chart/public/r/area-chart.json \
+  https://mnhtng.github.io/shadcn-chart/public/r/bar-chart.json \
+  https://mnhtng.github.io/shadcn-chart/public/r/line-chart.json \
+  https://mnhtng.github.io/shadcn-chart/public/r/pie-chart.json \
+  https://mnhtng.github.io/shadcn-chart/public/r/radial-chart.json
 ```
 
 This copies the component source to your project, allowing full customization.
