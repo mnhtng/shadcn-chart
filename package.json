@@ -1,0 +1,75 @@
+{
+  "name": "shadcn-chart",
+  "version": "0.1.0",
+  "description": "Headless and styled chart components built with shadcn/ui conventions",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./styles": "./dist/styles/global.css"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnhtng/shadcn-chart.git"
+  },
+  "keywords": [
+    "shadcn",
+    "chart",
+    "react",
+    "ui",
+    "components",
+    "recharts",
+    "visualization"
+  ],
+  "author": "MnhTng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mnhtng/shadcn-chart/issues"
+  },
+  "homepage": "https://github.com/mnhtng/shadcn-chart#readme",
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.2.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "motion": "^12.24.0",
+    "tailwind-merge": "^3.4.0"
+  },
+  "peerDependencies": {
+    "lucide-react": "^0.400.0",
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0",
+    "recharts": "^2.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^25.0.3",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "recharts": "^2.15.4",
+    "tailwindcss": "^4.1.18",
+    "tsup": "^8.3.5",
+    "typescript": "^5.9.3"
+  }
+}
