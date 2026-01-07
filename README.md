@@ -18,6 +18,26 @@ Beautiful, customizable chart components built with [shadcn/ui](https://ui.shadc
 
 ## 📦 Installation
 
+### Option 1: shadcn CLI (Recommended)
+
+Add individual chart components directly to your project:
+
+```bash
+# Install a single chart
+npx shadcn add https://mnhtng.github.io/shadcn-chart/r/area-chart.json
+
+# Or install all charts
+npx shadcn add https://mnhtng.github.io/shadcn-chart/r/area-chart.json \
+  https://mnhtng.github.io/shadcn-chart/r/bar-chart.json \
+  https://mnhtng.github.io/shadcn-chart/r/line-chart.json \
+  https://mnhtng.github.io/shadcn-chart/r/pie-chart.json \
+  https://mnhtng.github.io/shadcn-chart/r/radial-chart.json
+```
+
+This copies the component source to your project, allowing full customization.
+
+### Option 2: npm Package
+
 ```bash
 npm install shadcn-chart
 # or

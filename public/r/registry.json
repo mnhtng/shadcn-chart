@@ -1,0 +1,108 @@
+{
+    "$schema": "https://ui.shadcn.com/schema/registry.json",
+    "name": "shadcn-chart",
+    "homepage": "https://github.com/mnhtng/shadcn-chart",
+    "items": [
+        {
+            "name": "area-chart",
+            "type": "registry:block",
+            "title": "Area Chart",
+            "description": "A customizable area chart component with multiple variants (default, stacked, gradient, interactive).",
+            "dependencies": [
+                "recharts",
+                "lucide-react"
+            ],
+            "registryDependencies": [
+                "card",
+                "chart"
+            ],
+            "files": [
+                {
+                    "path": "registry/new-york/area-chart/area-chart.tsx",
+                    "type": "registry:component"
+                }
+            ]
+        },
+        {
+            "name": "bar-chart",
+            "type": "registry:block",
+            "title": "Bar Chart",
+            "description": "A customizable bar chart component with multiple variants (default, horizontal, stacked, mixed, interactive).",
+            "dependencies": [
+                "recharts",
+                "lucide-react"
+            ],
+            "registryDependencies": [
+                "card",
+                "chart"
+            ],
+            "files": [
+                {
+                    "path": "registry/new-york/bar-chart/bar-chart.tsx",
+                    "type": "registry:component"
+                }
+            ]
+        },
+        {
+            "name": "line-chart",
+            "type": "registry:block",
+            "title": "Line Chart",
+            "description": "A customizable line chart component with toggle options and Y-axis formatting.",
+            "dependencies": [
+                "recharts",
+                "lucide-react"
+            ],
+            "registryDependencies": [
+                "card",
+                "chart",
+                "button"
+            ],
+            "files": [
+                {
+                    "path": "registry/new-york/line-chart/line-chart.tsx",
+                    "type": "registry:component"
+                }
+            ]
+        },
+        {
+            "name": "pie-chart",
+            "type": "registry:block",
+            "title": "Pie Chart",
+            "description": "A customizable pie/donut chart component with animated active sections and legends.",
+            "dependencies": [
+                "recharts",
+                "motion"
+            ],
+            "registryDependencies": [
+                "card",
+                "chart"
+            ],
+            "files": [
+                {
+                    "path": "registry/new-york/pie-chart/pie-chart.tsx",
+                    "type": "registry:component"
+                }
+            ]
+        },
+        {
+            "name": "radial-chart",
+            "type": "registry:block",
+            "title": "Radial Chart",
+            "description": "An animated radial progress chart with percentage display and center label.",
+            "dependencies": [
+                "recharts",
+                "lucide-react"
+            ],
+            "registryDependencies": [
+                "card",
+                "chart"
+            ],
+            "files": [
+                {
+                    "path": "registry/new-york/radial-chart/radial-chart.tsx",
+                    "type": "registry:component"
+                }
+            ]
+        }
+    ]
+}

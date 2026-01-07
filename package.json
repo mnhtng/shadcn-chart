@@ -30,6 +30,7 @@
     "dev": "tsup --watch",
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "npm run build",
+    "registry:build": "shadcn build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -75,6 +76,7 @@
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "recharts": "^2.15.4",
+    "shadcn": "^3.6.3",
     "tailwindcss": "^4.1.18",
     "tsup": "^8.3.5",
     "typescript": "^5.9.3"
