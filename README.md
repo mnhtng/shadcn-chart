@@ -29,14 +29,22 @@ pnpm add shadcn-chart
 ### Peer Dependencies
 
 ```bash
-npm install react react-dom recharts lucide-react
+npm install react react-dom recharts lucide-react tailwindcss tw-animate-css
 ```
+
+> **Note:** This package requires **Tailwind CSS v4+** and uses the new CSS-first configuration.
 
 ## 🚀 Quick Start
 
 ### 1. Import Styles
 
-Add to your root layout or CSS entry point:
+Add to your root CSS file (e.g., `index.css` or `globals.css`):
+
+```css
+@import "shadcn-chart/styles";
+```
+
+Or import in your main entry file:
 
 ```tsx
 // Next.js: app/layout.tsx or pages/_app.tsx
