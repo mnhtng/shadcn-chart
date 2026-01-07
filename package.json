@@ -1,6 +1,6 @@
 {
   "name": "shadcn-chart",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Headless and styled chart components built with shadcn/ui conventions",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
