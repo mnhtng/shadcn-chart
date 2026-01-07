@@ -11,7 +11,12 @@
       "import": "./dist/index.mjs",
       "require": "./dist/index.js"
     },
-    "./styles": "./dist/styles/global.css"
+    "./styles": {
+      "import": "./dist/styles/global.css",
+      "require": "./dist/styles/global.css",
+      "default": "./dist/styles/global.css"
+    },
+    "./styles.css": "./dist/styles/global.css"
   },
   "files": [
     "dist",
