@@ -58,6 +58,10 @@ npm install react react-dom recharts lucide-react tailwindcss tw-animate-css
 
 ### 1. Import Styles
 
+`If your project doesn't have shadcn/ui CSS variables defined, also import the styles below.`
+
+Note: Tailwind CSS v4's JIT compiler only scans your project source files by default. The @source directive ensures utility classes used by shadcn-chart are generated. Without it, chart containers may render with 0 height.
+
 Add to your root CSS file (e.g., `index.css` or `globals.css`):
 
 ```css
